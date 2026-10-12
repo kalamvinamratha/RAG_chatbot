@@ -1,0 +1,9 @@
+SYNTHETIC TEST RECORD — NOT A REAL PATIENT — NOT FOR CLINICAL USE
+Record MED-TEST-303, fictional general medicine review.
+Type 2 diabetes mellitus and hypertension are recorded diagnoses.
+2026-09-03: HbA1c 8.4 percent, fasting glucose 172 mg/dL, blood pressure 142/88 mmHg.
+Metformin 500 mg twice daily is recorded for type 2 diabetes mellitus.
+Lisinopril 10 mg once daily is recorded for hypertension.
+2026-10-03: HbA1c 7.2 percent, fasting glucose 132 mg/dL, blood pressure 126/78 mmHg.
+No estimated glomerular filtration rate (eGFR) is documented.
+This fixture is for testing retrieval and chronology, not prescribing advice.

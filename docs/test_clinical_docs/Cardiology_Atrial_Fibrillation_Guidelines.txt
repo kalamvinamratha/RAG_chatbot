@@ -1,0 +1,75 @@
+==============================================================================
+CLINICAL PRACTICE GUIDELINES: MANAGEMENT OF ATRIAL FIBRILLATION
+==============================================================================
+
+DOCUMENT METADATA:
+  Document ID: CARD-GL-2026-04
+  Specialty: Cardiology / Electrophysiology
+  Authors: Cardiovascular Clinical Guideline Working Group
+  Version: 4.2
+  Effective Date: January 2026
+
+------------------------------------------------------------------------------
+
+1. Executive Summary & Clinical Scope
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Atrial fibrillation (AF) is the most common sustained cardiac arrhythmia globally, associated with a five-fold increase in the risk of stroke, a three-fold increase in heart failure risk, and elevated cardiovascular mortality. This clinical guideline delineates evidence-based diagnostic criteria, stroke risk stratification algorithms, pharmacologic rate vs. rhythm control strategies, and anticoagulation therapy recommendations.
+
+2. Diagnostic Criteria & Initial Assessment
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+A definitive diagnosis of atrial fibrillation requires standard 12-lead electrocardiogram (ECG) documentation or a single-lead ECG tracing showing an irregular rhythm without discernible P waves lasting at least 30 seconds.
+Initial clinical workup must include:
+• 12-lead ECG assessing ventricular rate, QRS width, and ischemic changes.
+• Transthoracic Echocardiogram (TTE) evaluating left ventricular ejection fraction (LVEF), left atrial dimension, and valvular heart disease.
+• Laboratory panel: Thyroid stimulating hormone (TSH), complete blood count, serum creatinine, eGFR, liver transaminases, and electrolytes.
+
+3. Thromboembolism Risk Stratification (CHA2DS2-VASc)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Oral anticoagulation decisions are guided by the validated CHA2DS2-VASc score:
+• Congestive heart failure / LV dysfunction (+1 point)
+• Hypertension consistently >140/90 mmHg or treated (+1 point)
+• Age >= 75 years (+2 points)
+• Diabetes mellitus (+1 point)
+• Stroke, TIA, or prior thromboembolism (+2 points)
+• Vascular disease (prior MI, peripheral artery disease, aortic plaque) (+1 point)
+• Age 65 to 74 years (+1 point)
+• Sex category Female (+1 point)
+
+Clinical Recommendations:
+- Score >= 2 in men or >= 3 in women: Oral anticoagulation is strongly recommended (Class I, Level A).
+- Score = 1 in men or = 2 in women: Oral anticoagulation should be considered based on bleeding risk and shared decision-making.
+- Score = 0 in men or = 1 in women: Anticoagulation is generally omitted (Class III: Harm).
+
+4. Oral Anticoagulation Pharmacotherapy
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Direct Oral Anticoagulants (DOACs) are first-line agents over vitamin K antagonists (Warfarin) for non-valvular AF due to superior safety profiles and significantly reduced intracranial hemorrhage risk.
+
+Specific Dosing Guidelines:
+• Apixaban (Eliquis): Standard dose is 5 mg PO twice daily (BID). Reduce dose to 2.5 mg PO BID if the patient meets at least TWO of the following ABC criteria: Age >= 80 years, Body weight <= 60 kg, or Serum creatinine >= 1.5 mg/dL.
+• Rivaroxaban (Xarelto): Standard dose is 20 mg PO once daily taken with the evening meal. Dose reduced to 15 mg daily if CrCl is 15-49 mL/min.
+• Dabigatran (Pradaxa): 150 mg PO twice daily. Consider 110 mg PO BID in patients >= 80 years or with elevated bleeding risk.
+• Warfarin: Indicated specifically in mechanical heart valves or moderate-to-severe mitral stenosis. Target INR range is 2.0 to 3.0 (2.5 to 3.5 for mechanical mitral valves).
+
+5. Ventricular Rate Control Strategies
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+For hemodynamically stable AF, ventricular rate control is initial management. Target resting heart rate is < 110 bpm (lenient control) or < 80 bpm if symptomatic.
+
+First-line Pharmacotherapy:
+• Beta-Blockers:
+  - Metoprolol succinate: 50 mg to 200 mg PO once daily.
+  - Bisoprolol: 2.5 mg to 10 mg PO once daily.
+  - Carvedilol: 3.125 mg to 25 mg PO twice daily (preferred in heart failure with reduced ejection fraction).
+• Non-Dihydropyridine Calcium Channel Blockers:
+  - Diltiazem: 120 mg to 360 mg PO daily (avoid in HFrEF with LVEF < 40%).
+  - Verapamil: 120 mg to 360 mg PO daily in divided doses.
+• Second-line Add-on:
+  - Digoxin: 0.0625 mg to 0.25 mg daily, useful in sedentary patients with concurrent HFrEF.
+  - Amiodarone: Reserved for refractory rate control or when other agents are contraindicated.
+
+6. Rhythm Control & Cardioversion Protocol
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Rhythm control is indicated for patients with persistent symptoms despite rate control, younger patients, or heart failure precipitated by tachycardia.
+
+Cardioversion Anticoagulation Protocol:
+• If AF duration > 48 hours (or unknown duration): Must complete at least 3 consecutive weeks of therapeutic anticoagulation before elective cardioversion, OR undergo transesophageal echocardiography (TEE) to exclude left atrial appendage (LAA) thrombus.
+• Post-cardioversion: Therapeutic anticoagulation must be maintained for a minimum of 4 weeks regardless of CHA2DS2-VASc score.

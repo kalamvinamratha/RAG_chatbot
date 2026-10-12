@@ -1,0 +1,9 @@
+SYNTHETIC TEST RECORD — NOT A REAL PATIENT — NOT FOR CLINICAL USE
+Record CARD-TEST-101, cardiology baseline, 2026-09-01.
+The fictional patient has hypertension and atrial fibrillation.
+Echocardiogram: left ventricular ejection fraction (LVEF) 42 percent.
+Blood pressure: 148/92 mmHg. Heart rate: 96 beats per minute.
+Metoprolol 25 mg twice daily is recorded for ventricular rate control in atrial fibrillation.
+Apixaban 5 mg twice daily is recorded for atrial fibrillation.
+No coronary angiography result or LDL cholesterol value is recorded.
+This fixture is a documentation and retrieval test, not prescribing advice.

@@ -1,0 +1,8 @@
+{
+  "server/**/*.py": [
+    "uv run --project server ruff check --cache-dir server/.ruff_cache --fix",
+    "uv run --project server ruff format --cache-dir server/.ruff_cache"
+  ],
+  "client/**/*.{js,jsx,ts,tsx,css,json}": ["prettier --config infra/.prettierrc --write"],
+  "*.{json,md,yml,yaml}": ["prettier --config infra/.prettierrc --write"]
+}

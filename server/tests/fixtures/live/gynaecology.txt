@@ -1,0 +1,9 @@
+SYNTHETIC TEST RECORD — NOT A REAL PATIENT — NOT FOR CLINICAL USE
+Record GYN-TEST-202, fictional gynaecology consultation.
+2026-09-02: heavy menstrual bleeding, haemoglobin 9.8 g/dL, ferritin 7 ng/mL.
+Pelvic ultrasound records a 3.2 cm intramural uterine fibroid.
+Iron deficiency anaemia is associated with the recorded heavy menstrual bleeding.
+Ferrous sulfate 325 mg once daily is recorded for iron deficiency anaemia.
+2026-10-02: haemoglobin 11.1 g/dL, ferritin 18 ng/mL.
+No pregnancy test result or endometrial biopsy result is documented.
+This fixture is for testing source-grounded summaries, not treatment advice.

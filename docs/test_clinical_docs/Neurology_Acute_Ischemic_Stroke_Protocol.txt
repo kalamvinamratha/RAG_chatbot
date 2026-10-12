@@ -1,0 +1,74 @@
+==============================================================================
+CLINICAL EMERGENCY PROTOCOL: ACUTE ISCHEMIC STROKE MANAGEMENT
+==============================================================================
+
+DOCUMENT METADATA:
+  Document ID: NEUR-PROT-2026-01
+  Specialty: Neurology / Neuro-Intensive Care
+  Authors: Comprehensive Stroke Center Steering Committee
+  Version: 3.8
+  Effective Date: February 2026
+
+------------------------------------------------------------------------------
+
+1. Triage & Rapid Emergency Assessment
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Acute ischemic stroke is a time-critical neurological emergency ('Time is Brain'). The initial emergency department evaluation must follow the 10-25-45 rule:
+• Door-to-physician assessment: Within 10 minutes.
+• Door-to-non-contrast CT / CT angiography: Completed within 25 minutes.
+• Door-to-CT interpretation: Completed within 45 minutes.
+• Door-to-needle (IV thrombolysis): Target < 45 minutes (benchmark goal < 30 minutes).
+
+2. Neurological Scoring & Clinical Examination
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+All candidates must be evaluated using the National Institutes of Health Stroke Scale (NIHSS):
+• Score 1-4: Minor stroke.
+• Score 5-15: Moderate stroke.
+• Score 16-20: Moderate-to-severe stroke.
+• Score 21-42: Severe stroke.
+
+Mandatory Rapid Diagnostic Tests:
+• Point-of-care capillary blood glucose (must rule out hypoglycemia < 60 mg/dL as stroke mimic).
+• Coagulation panel (PT, INR, aPTT) and platelet count (thrombolysis is permissible prior to lab results unless coagulopathy or heparin/warfarin use is suspected).
+
+3. Intravenous Thrombolysis Protocols (0 to 4.5 Hours)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Patients presenting within 4.5 hours of symptom onset (or last known normal) without contraindications are eligible for IV thrombolytic therapy.
+
+Agent Selections & Dosing:
+• Tenecteplase (TNK-tPA): Recommended first-line agent. Dose is 0.25 mg/kg IV single bolus over 5 seconds (maximum dose 25 mg). Does not require an infusion pump.
+• Alteplase (rtPA): Alternative agent. Total dose 0.9 mg/kg (maximum 90 mg). Administer 10% of total dose as an IV bolus over 1 minute, followed by the remaining 90% infused over 60 minutes.
+
+Absolute Contraindications to Thrombolysis:
+• Intracranial hemorrhage on baseline CT scan.
+• Significant head trauma or prior stroke within the past 3 months.
+• Platelet count < 100,000/mm3 or INR > 1.7.
+• Use of full-dose DOAC (Apixaban, Rivaroxaban) within the prior 48 hours with normal renal function.
+
+4. Acute Blood Pressure Management Protocol
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Strict blood pressure control is paramount to avoid hemorrhagic transformation:
+• Prior to IV thrombolysis: Blood pressure must be lowered to Systolic < 185 mmHg and Diastolic < 110 mmHg.
+• First-line antihypertensive agents:
+  - Labetalol: 10 mg to 20 mg IV push over 1-2 minutes; may repeat or double every 10 minutes to maximum 300 mg.
+  - Nicardipine IV infusion: 5 mg/hr, titrate up by 2.5 mg/hr every 5-15 minutes (maximum 15 mg/hr).
+• During and after thrombolysis: Maintain BP < 180/105 mmHg for at least 24 hours post-thrombolytic administration.
+
+5. Endovascular Mechanical Thrombectomy (EVT)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Mechanical thrombectomy with stent retriever or aspiration catheter is indicated for large vessel occlusions (LVO) of the internal carotid artery (ICA) or proximal middle cerebral artery (MCA M1 segment).
+
+Eligibility Criteria:
+• Within 0 to 6 hours of onset: Pre-stroke mRS 0-1, NIHSS >= 6, ASPECTS score >= 6 on non-contrast CT.
+• Extended window (6 to 24 hours): Eligible if fulfilling DAWN or DEFUSE-3 trial perfusion mismatch criteria (target mismatch on CT perfusion or MRI diffusion-weighted imaging showing penumbra salvability).
+
+6. Inpatient Subacute Care & Secondary Prevention
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Post-thrombolysis Inpatient Directives:
+• Neuro-checks and vital signs: Every 15 min for 2 hours, every 30 min for 6 hours, then hourly for 16 hours.
+• Nil per os (NPO) until formal dysphagia screening is performed to prevent aspiration pneumonia.
+• Repeat non-contrast CT at 24 hours post-thrombolysis before starting any antithrombotic medications.
+
+Secondary Prevention Regimen:
+• Antiplatelet therapy: Initiate Aspirin 160-325 mg daily starting 24 hours post-thrombolysis. For high-risk TIA (ABCD2 >= 4) or minor stroke (NIHSS <= 3), start dual antiplatelet therapy (DAPT: Aspirin 81 mg + Clopidogrel 75 mg daily) for 21 days.
+• Lipid-lowering therapy: High-intensity statin therapy (Atorvastatin 80 mg daily or Rosuvastatin 40 mg daily) initiated regardless of baseline LDL level.

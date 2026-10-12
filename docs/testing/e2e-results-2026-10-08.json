@@ -1,0 +1,72 @@
+{
+  "date": "2026-10-08",
+  "environment": "local development; synthetic records only",
+  "status": "partially verified; remaining real answer tests blocked by Gemini daily quota",
+  "automated_checks": {
+    "command": "npm --prefix infra run check",
+    "backend_tests": 54,
+    "frontend_tests": 25,
+    "coverage_added": [
+      "All seven supported document formats preserve clinical values through parsing and chunking",
+      "Spreadsheet rows containing zero values are retained",
+      "Provider quota failures never become successful fabricated answers",
+      "Transient provider failures retry before output, but partial streams are never replayed",
+      "Empty provider output fails explicitly",
+      "Daily quota exhaustion does not retry for hours",
+      "Evidence passage buttons support keyboard activation"
+    ]
+  },
+  "live_checks": {
+    "storage_and_retrieval_checks_passed": 47,
+    "specialties": ["cardiology", "gynaecology", "general_medicine", "neurology"],
+    "verified": [
+      "PostgreSQL, Qdrant and Neo4j health",
+      "Cookie sign-in, sign-out, invalid key and unauthenticated access",
+      "Untrusted-origin mutations rejected",
+      "Synthetic TXT/MD uploads and durable source chunks",
+      "Real Gemini embeddings, Qdrant semantic search, PostgreSQL BM25, fusion and cross-encoder reranking for all four specialties",
+      "Document and session specialty isolation",
+      "Reindexing and temporary document deletion",
+      "Deleted evidence inaccessible to retrieval",
+      "Empty document selection produces no citations and acknowledges missing evidence",
+      "Real Groq Whisper transcription of generated speech",
+      "Cardiology multi-document numeric answer, source citations, persisted history and nonempty source graph before quota exhaustion"
+    ],
+    "raw_storage_report": "server/live-e2e-storage-report.json",
+    "raw_generation_report": "server/live-e2e-report.json",
+    "rerun_generation": "cd server && uv run python scripts/live_e2e.py --resume",
+    "rerun_storage": "cd server && uv run python scripts/live_e2e.py --resume --storage-only"
+  },
+  "browser_checks": [
+    "Synthetic upload and completed document status",
+    "All four companions show specialty-specific records",
+    "Clear/select all sources",
+    "No-source question safeguards",
+    "Answer copying",
+    "Same-companion conversation continuity",
+    "Empty and populated evidence graph states",
+    "Quota failure shown explicitly; no false completed answer",
+    "Retrieved passage opens citation drawer with Enter",
+    "Escape dismisses dialogs and restores focus",
+    "390x844 mobile citation drawer without horizontal overflow"
+  ],
+  "blocker": {
+    "provider": "Gemini gemini-2.5-flash",
+    "response": "429 RESOURCE_EXHAUSTED",
+    "quota": "20 generate-content requests per day; 5 per minute",
+    "observed_retry_seconds": 42615,
+    "action_required": "Wait for quota reset or increase provider quota/provide a key with available quota. No billing or model change was made."
+  },
+  "not_fully_verified": [
+    "Successful live answer generation and AI graph relationship extraction for the remaining three specialties",
+    "Successful missing-field and multi-turn live answer assertions after quota exhaustion",
+    "Live binary-format ingestion and multimodal figure flows; format parsers were verified with generated fixtures",
+    "Real microphone recording and browser/OS microphone permissions; generated audio tested the transcription service",
+    "Production deployment, load testing, clinical correctness and regulatory compliance"
+  ],
+  "data_handling": "Sample source fixtures and indexed sample records remain for inspection. Only newly created temporary deletion fixtures were removed. Existing user records were not removed. No real patient data was used.",
+  "known_warnings": [
+    "Large lazy-loaded Mermaid dependency chunks",
+    "Third-party SWIG deprecation and local Qdrant index warnings"
+  ]
+}

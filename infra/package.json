@@ -1,0 +1,25 @@
+{
+  "name": "healthcare-hybrid-rag",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Healthcare AI Hybrid Graph RAG Chatbot",
+  "scripts": {
+    "prepare": "cd .. && husky .husky",
+    "format": "cd .. && prettier --config infra/.prettierrc --ignore-path infra/.prettierignore --write .",
+    "lint:format": "cd .. && prettier --config infra/.prettierrc --ignore-path infra/.prettierignore --check .",
+    "lint:python": "cd ../server && uv run ruff check .",
+    "format:python": "cd ../server && uv run ruff format .",
+    "lint:client": "npm --prefix ../client run lint",
+    "test:server": "cd ../server && uv run pytest",
+    "lint": "npm run lint:python && npm run lint:format && npm run lint:client",
+    "build": "npm --prefix ../client run build",
+    "check": "npm run lint && npm run check:python-format && npm run test:server && npm run build",
+    "check:python-format": "cd ../server && uv run ruff format --check .",
+    "precommit": "cd .. && lint-staged --config infra/.lintstagedrc.json && npm --prefix infra run check"
+  },
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "lint-staged": "^15.4.3",
+    "prettier": "^3.5.3"
+  }
+}

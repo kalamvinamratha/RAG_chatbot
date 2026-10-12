@@ -1,0 +1,14 @@
+node_modules
+.venv
+dist
+build
+.husky
+*.pdf
+*.lock
+uv.lock
+package-lock.json
+__pycache__
+.ruff_cache
+.pytest_cache
+**/uploads/**
+**/live-e2e*-report.json

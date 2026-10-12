@@ -1,0 +1,10 @@
+SYNTHETIC TEST RECORD — NOT A REAL PATIENT — NOT FOR CLINICAL USE
+Record NEURO-TEST-404, fictional neurology review.
+Migraine without aura is the recorded diagnosis.
+2026-09-04: headache diary records 12 headache days per month.
+Brain MRI report records no acute intracranial abnormality.
+Topiramate 25 mg nightly is recorded for migraine prevention.
+2026-10-04: headache diary records 5 headache days per month.
+Topiramate is recorded at 50 mg nightly for migraine prevention.
+No EEG result or epilepsy diagnosis is documented.
+This fixture is for testing evidence-grounded answers, not treatment advice.
